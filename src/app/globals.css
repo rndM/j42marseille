@@ -37,7 +37,7 @@
   }
 }
 
-/* ===== CLASSE POUR FORCER UN THÈME (futur toggle) ===== */
+/* ===== CLASSE POUR FORCER UN THÈME (toggle) ===== */
 [data-theme="dark"] {
   --surface-primary: #000000;
   --surface-secondary: #09090b;

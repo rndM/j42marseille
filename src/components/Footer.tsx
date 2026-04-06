@@ -6,10 +6,10 @@ export default function Footer() {
           {/* Logo + Description */}
           <div>
             <h3 className="font-bold text-xl text-text-primary mb-2">
-              JE 42 Marseille
+              J42 Marseille
             </h3>
             <p className="text-text-secondary">
-              La Junior Entreprise de l'école 42 Marseille
+              Junior Entreprise de l'école 42 Marseille
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function Footer() {
         {/* Copyright + Mentions légales */}
         <div className="border-t border-border-default mt-8 pt-8 text-center">
           <p className="text-text-muted">
-            © 2026 JE 42 Marseille
+            © 2026 J42 Marseille
           </p>
           <a href="#" className="footer-link text-sm text-text-muted">
             Mentions légales
