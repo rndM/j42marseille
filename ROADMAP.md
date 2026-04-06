@@ -35,13 +35,13 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ## ✅ Setup
 
-- [ ] `npx create-next-app@latest je-42marseille`
+- [ ] `npx create-next-app@latest j42marseille`
   - TypeScript ✓
   - Tailwind ✓
   - ESLint ✓
   - App Router ✓
   - src/ directory ✓
-- [ ] `cd je-42marseille`
+- [ ] `cd j42marseille`
 - [ ] `npm install -D prettier eslint-config-prettier`
 - [ ] Créer `.prettierrc`
 - [ ] Tester `npm run dev` → http://localhost:3000
@@ -143,7 +143,7 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 ## Structure dossiers
 
 ```
-je-42marseille/
+j42marseille/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JE 42 Marseille",
     description: "Accompagnement de projets digitaux par des étudiants de 42 Marseille",
-    url: "https://je-42marseille.vercel.app",
+    url: "https://j42marseille.vercel.app",
     siteName: "JE 42 Marseille",
     locale: "fr_FR",
     type: "website",
