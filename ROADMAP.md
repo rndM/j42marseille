@@ -19,10 +19,10 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 │                                                     │
 ├─────────────────────────────────────────────────────┤
 │           Section "À propos"                        │
-│           Texte + image                             │
+│           Texte + image placeholder                 │
 ├─────────────────────────────────────────────────────┤
 │           Section "Services"                        │
-│           3 cartes ( carroussel ? )                 │
+│           3 cartes                                  │
 ├─────────────────────────────────────────────────────┤
 │           Section "Contact"                         │
 │           Formulaire + infos                        │
@@ -35,16 +35,16 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ## ✅ Setup
 
-- [ ] `npx create-next-app@latest j42marseille`
+- [x] `npx create-next-app@latest j42marseille`
   - TypeScript ✓
   - Tailwind ✓
   - ESLint ✓
   - App Router ✓
   - src/ directory ✓
-- [ ] `cd j42marseille`
-- [ ] `npm install -D prettier eslint-config-prettier`
-- [ ] Créer `.prettierrc`
-- [ ] Tester `npm run dev` → http://localhost:3000
+- [x] `cd j42marseille`
+- [x] `npm install -D prettier eslint-config-prettier`
+- [x] Créer `.prettierrc`
+- [x] Tester `npm run dev` → http://localhost:3000
 
 ---
 
@@ -52,42 +52,43 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ### Navbar
 
-- [ ] Logo + nom JE
-- [ ] Menu desktop (Accueil, Services, À propos, Contact)
-- [ ] Hamburger mobile
-- [ ] Scroll fluide vers ancres
-- [ ] Fermeture menu au clic
+- [x] Logo + nom JE
+- [x] Menu desktop (Accueil, Services, À propos, Contact)
+- [x] Hamburger mobile
+- [x] Toggle de thème
+- [x] Scroll fluide vers ancres
+- [x] Fermeture menu au clic
 
 ### Hero Section
 
-- [ ] Titre principal
-- [ ] Sous-titre
-- [ ] CTA bouton
-- [ ] Padding responsive
+- [x] Titre principal
+- [x] Sous-titre
+- [x] CTA bouton
+- [x] Padding responsive
 
 ### Section À propos
 
-- [ ] Titre
-- [ ] Texte descriptif
-- [ ] Image/illustration (optionnel)
+- [x] Titre
+- [x] Texte descriptif
+- [x] Image/illustration placeholder
 
 ### Section Services
 
-- [ ] 3 cartes
-- [ ] Icônes (lucide-react)
-- [ ] Hover effects
+- [x] 3 cartes
+- [x] Icônes (lucide-react)
+- [x] Hover effects
 
 ### Section Contact
 
-- [ ] Formulaire (nom, email, message)
-- [ ] Infos contact
-- [ ] Réseaux sociaux
+- [x] Formulaire (nom, email, message)
+- [x] Infos contact
+- [x] Réseaux sociaux (liens placeholder)
 
 ### Footer
 
-- [ ] Liens légaux
-- [ ] Copyright
-- [ ] Liens sociaux
+- [x] Mentions légales (placeholder)
+- [x] Copyright
+- [x] Liens sociaux (placeholder)
 
 ---
 
@@ -102,10 +103,10 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ### Ajustements code
 
-- [ ] Appliquer couleurs perso
-- [ ] Ajuster typography
-- [ ] Espacements précis
-- [ ] Animations hover
+- [x] Appliquer couleurs perso
+- [x] Ajuster typography
+- [x] Espacements précis
+- [x] Animations hover
 
 ---
 
@@ -114,13 +115,13 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 - [ ] Test mobile (< 768px)
 - [ ] Test tablette (768-1024px)
 - [ ] Test desktop (> 1024px)
-- [ ] Menu hamburger OK
-- [ ] Textes lisibles
+- [x] Menu hamburger OK
+- [x] Textes lisibles
 - [ ] Images adaptatives
 
 ---
 
-## Déploiement (J5)
+## Déploiement
 
 - [ ] `npm run build` (test local)
 - [ ] Push GitHub
@@ -132,7 +133,7 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ## 🛠️ Tech Stack
 
-- **Framework** : Next.js 14+ (App Router)
+- **Framework** : Next.js 16+ (App Router)
 - **Styling** : Tailwind CSS
 - **Icônes** : lucide-react
 - **Form** : HTML natif + JS
@@ -144,23 +145,34 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ```
 j42marseille/
+├── .prettierrc
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
 ├── src/
 │   ├── app/
+│   │   ├── favicon.ico
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
 │   │   └── globals.css
 │   └── components/
+│       ├── ThemeToggle.tsx
 │       ├── Navbar.tsx
-│       ├── Hero.tsx
-│       ├── About.tsx
-│       ├── Services.tsx
-│       ├── Contact.tsx
-│       └── Footer.tsx
+│       ├── Footer.tsx
+│       └── sections/
+│           ├── About.tsx
+│           ├── Contact.tsx
+│           ├── Hero.tsx
+│           └── Services.tsx
 ├── public/
-│   └── logo.png
-├── package.json
-├── tailwind.config.ts
-└── .prettierrc
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+└── tailwind.config.ts
 ```
 
 ---
@@ -180,8 +192,11 @@ j42marseille/
 - Priorité : Mobile-first
 - Code propre > Features
 - Itérations rapides
+- Logo dédié non présent à ce stade.
+- Les liens sociaux et la mention légale sont des placeholders.
+- Les tests responsive restent à valider manuellement.
 
 ---
 
-**Dernière MAJ** : 22/03/2026  
+**Dernière MAJ** : 06/04/2026  
 **Statut** : En cours

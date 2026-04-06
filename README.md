@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Junior Entreprise 42 Marseille
 
-First, run the development server:
+Site vitrine officiel de la Junior Entreprise de l’école 42 Marseille, développé bénévolement pour accompagner l’association dans sa visibilité en ligne et faciliter la prise de contact avec ses prospects.
+
+L’application est déployée ici : [https://j42marseille.vercel.app/](https://j42marseille.vercel.app/)
+
+## Présentation
+
+Ce projet a pour objectif de proposer une présence web claire, sobre et professionnelle à la Junior Entreprise 42 Marseille. Il met en avant l’association, ses services et ses coordonnées, avec une navigation simple et une expérience centrée sur la prise de contact.
+
+## Fonctionnalités
+
+- Page d’accueil avec présentation de la Junior Entreprise.
+- Mise en avant des services proposés : développement web, conseil digital et formation.
+- Section À propos pour expliquer la mission de l’association.
+- Formulaire de contact générant un email pré-rempli via le client de messagerie.
+- Navigation responsive avec menu mobile.
+- Toggle de thème (système, clair, sombre) avec persistance en localStorage.
+- Interface structurée en sections pour une lecture rapide sur desktop et mobile.
+- Métadonnées SEO et partage social (Open Graph et Twitter Card).
+
+## Technologies
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
+
+## Structure du projet
+
+- [src/app/page.tsx](src/app/page.tsx) : composition de la page d’accueil.
+- [src/app/layout.tsx](src/app/layout.tsx) : layout global et métadonnées.
+- [src/app/globals.css](src/app/globals.css) : styles globaux, variables de thème et classes utilitaires.
+- [src/components/Navbar.tsx](src/components/Navbar.tsx) : navigation principale.
+- [src/components/ThemeToggle.tsx](src/components/ThemeToggle.tsx) : bascule de thème (system/light/dark).
+- [src/components/sections/Hero.tsx](src/components/sections/Hero.tsx) : bloc d’introduction.
+- [src/components/sections/Services.tsx](src/components/sections/Services.tsx) : présentation des services.
+- [src/components/sections/About.tsx](src/components/sections/About.tsx) : présentation de l’association.
+- [src/components/sections/Contact.tsx](src/components/sections/Contact.tsx) : formulaire de contact.
+- [src/components/Footer.tsx](src/components/Footer.tsx) : pied de page et liens utiles.
+
+## Lancer le projet en local
+
+Prérequis : Node.js (version LTS recommandée) et npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Le site sera disponible en local à l’adresse suivante : [http://localhost:3000](http://localhost:3000)
+
+## Scripts disponibles
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run start
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Déploiement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Le site est pensé pour un déploiement simple sur Vercel. La configuration Next.js permet une mise en production rapide après construction du projet.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## État actuel
 
-## Learn More
+- Les liens vers les réseaux sociaux et les mentions légales sont encore des placeholders (`#`).
+- Le bloc visuel de la section À propos est un placeholder en attente d’une image ou illustration finale.
 
-To learn more about Next.js, take a look at the following resources:
+## À propos du projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ce site a été réalisé bénévolement afin de soutenir la Junior Entreprise de 42 Marseille et de lui offrir un support de communication moderne, lisible et facile à maintenir.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
