@@ -13,8 +13,8 @@ export default function Navbar() {
       <div className="section-container py-3 flex justify-between items-center">
         {/* Logo */}
         <div>
-          <a href="#accueil" className="font-bold text-xl text-text-primary">
-            JE 42 Marseille
+          <a href="#accueil" className="font-bold text-xl" style={{color: '#ED3491'}}>
+            J42 Marseille
           </a>
         </div>
 

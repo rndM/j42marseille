@@ -9,6 +9,13 @@ const config: Config = {
   darkMode: 'media',
   theme: {
     extend: {
+      fontFamily: {
+        // Police primaire: Raleway (remplaçant Futura PT - charte 42)
+        // Variantes: Light (300), Light Italic, Book (400), Book Italic, Heavy (700), Heavy Italic
+        sans: ['var(--font-raleway)', 'Raleway', 'sans-serif'],
+        // Alternative: Montserrat
+        alt: ['var(--font-montserrat)', 'Montserrat', 'sans-serif'],
+      },
       colors: {
         // Couleurs primaires - Charte Graphique 42 (en référence)
         // À utiliser via les tokens sémantiques ci-dessous

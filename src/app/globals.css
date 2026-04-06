@@ -88,20 +88,60 @@
 body {
   color: var(--text-primary);
   background: var(--surface-primary);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Police primaire: Raleway (similaire à Futura PT - charte 42) */
+  font-family: var(--font-raleway, 'Raleway', sans-serif);
+  font-size: 1rem;
+  line-height: 1.5;
   transition: background-color 0.2s, color 0.2s;
 }
 
 html {
   scroll-behavior: smooth;
+  lang: 'fr';
 }
 
 /* ===== UTILITAIRES SÉMANTIQUES (@layer components) ===== */
 @layer components {
+  /* Typographie Futura PT (charte 42) */
+  
+  /* Light (300) */
+  .font-light {
+    @apply font-light;
+  }
+  
+  /* Light Oblique (300 italic) */
+  .font-light-italic {
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Book (400 - défaut) */
+  .font-book {
+    font-weight: 400;
+  }
+  
+  /* Book Oblique (400 italic) */
+  .font-book-italic {
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Heavy (700) */
+  .font-heavy {
+    @apply font-bold;
+  }
+  
+  /* Heavy Oblique (700 italic) */
+  .font-heavy-italic {
+    font-weight: 700;
+    font-style: italic;
+  }
+
   /* Boutons */
   .btn-primary {
     @apply px-8 py-4 text-white font-medium rounded-lg transition shadow-lg hover:shadow-xl inline-block;
     background-color: var(--primary);
+    font-family: var(--font-raleway, 'Raleway', sans-serif);
   }
   .btn-primary:hover {
     background-color: var(--primary-hover);
@@ -116,11 +156,13 @@ html {
   .section-title {
     @apply text-3xl md:text-4xl font-bold mb-4 text-center;
     color: var(--text-primary);
+    font-family: var(--font-raleway, 'Raleway', sans-serif);
   }
 
   .section-subtitle {
     @apply max-w-2xl mx-auto text-center mb-12;
     color: var(--text-secondary);
+    font-family: var(--font-raleway, 'Raleway', sans-serif);
   }
 
   /* Cartes */
@@ -128,6 +170,7 @@ html {
     @apply border rounded-lg p-6 transition;
     background-color: var(--surface-tertiary);
     border-color: var(--border-default);
+    font-family: var(--font-raleway, 'Raleway', sans-serif);
   }
   .card-service:hover {
     border-color: var(--primary);
@@ -138,6 +181,7 @@ html {
   .footer-link {
     @apply transition;
     color: var(--text-secondary);
+    font-family: var(--font-raleway, 'Raleway', sans-serif);
   }
   .nav-link:hover,
   .footer-link:hover {
