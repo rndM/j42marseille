@@ -1,6 +1,22 @@
 'use client'
 
+import React from 'react';
+
 export default function Contact() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+    
+    const subject = encodeURIComponent(`[Contact Web] Nouveau message de ${name}`);
+    const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+    
+    const mailtoUrl = `mailto:junior42marseille@gmail.com?subject=${subject}&body=${body}`;
+    window.open(mailtoUrl, '_blank');
+  };
+
   return (
     <section id="contact" className="py-20 section-bg-secondary">
       <div className="section-container">
@@ -12,10 +28,10 @@ export default function Contact() {
               Contactez-nous
             </h2>
             <p className="section-subtitle md:!text-left mb-8">
-              Vous avez un projet ? Écrivez-nous et nous vous recontacterons sous 48h.
+              Vous avez un projet ? Remplissez ce formulaire pour préparer votre email.
             </p>
             
-            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+            <form className="space-y-4" onSubmit={handleSubmit}>
               <div>
                 <label htmlFor="name" className="block text-text-secondary mb-2">
                   Nom complet
@@ -59,8 +75,12 @@ export default function Contact() {
               </div>
               
               <button type="submit" className="btn-primary w-full md:w-auto">
-                Envoyer le message
+                Ouvrir mon client email
               </button>
+
+              <p className="text-xs text-text-secondary mt-4 italic">
+                Note : Ce bouton ouvrira votre logiciel de messagerie par défaut (Outlook, Mail, Gmail...) avec votre message pré-rempli.
+              </p>
             </form>
           </div>
 
