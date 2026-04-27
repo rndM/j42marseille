@@ -112,9 +112,9 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ## Responsive
 
-- [ ] Test mobile (< 768px)
-- [ ] Test tablette (768-1024px)
-- [ ] Test desktop (> 1024px)
+- [x] Test mobile (< 768px)
+- [x] Test tablette (768-1024px)
+- [x] Test desktop (> 1024px)
 - [x] Menu hamburger OK
 - [x] Textes lisibles
 - [x] Images adaptatives (next/image)
@@ -123,11 +123,11 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ## Déploiement
 
-- [ ] `npm run build` (test local)
-- [ ] Push GitHub
-- [ ] Connecter Vercel
-- [ ] Deploy
-- [ ] Test prod
+- [x] `npm run build` (test local)
+- [x] Push GitHub
+- [x] Connecter Vercel
+- [x] Deploy
+- [x] Test prod
 
 ---
 
