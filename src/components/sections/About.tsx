@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <section id="apropos" className="py-20 section-bg-primary">
@@ -10,7 +12,7 @@ export default function About() {
               Qui sommes-nous ?
             </h2>
             <p className="section-subtitle md:!text-left mb-6">
-              La Junior Entreprise de 42 Marseille est une association étudiante
+              J42 Marseille est une association étudiante
               qui accompagne les entreprises dans leurs projets digitaux.
             </p>
             <p className="text-text-secondary mb-8">
@@ -22,13 +24,16 @@ export default function About() {
             </a>
           </div>
 
-          {/* Placeholder image */}
+          {/* Image équipe */}
           <div className="flex justify-center">
-            <div className="w-full max-w-md aspect-square bg-surface-tertiary border border-border-default rounded-xl flex items-center justify-center">
-              <span className="text-text-muted text-center px-4">
-                Illustration ou photo équipe<br />
-                <span className="text-sm">(à remplacer plus tard)</span>
-              </span>
+            <div className="w-full max-w-md aspect-square bg-surface-tertiary border border-border-default rounded-xl overflow-hidden">
+              <Image
+                src="/assets/students.png"
+                alt="Équipe de J42 Marseille"
+                width={500}
+                height={500}
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 

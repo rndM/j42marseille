@@ -10,7 +10,7 @@ export default function Hero() {
 
         {/* Sous-titre */}
         <p className="section-subtitle text-lg md:text-xl">
-          La Junior Entreprise de 42 Marseille vous accompagne dans vos projets digitaux
+          La J42 Marseille vous accompagne dans vos projets digitaux
           avec l'expertise d'étudiants passionnés.
         </p>
 

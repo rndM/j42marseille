@@ -70,7 +70,7 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 - [x] Titre
 - [x] Texte descriptif
-- [x] Image/illustration placeholder
+- [x] Image équipe (students.png) avec next/image
 
 ### Section Services
 
@@ -117,7 +117,7 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 - [ ] Test desktop (> 1024px)
 - [x] Menu hamburger OK
 - [x] Textes lisibles
-- [ ] Images adaptatives
+- [x] Images adaptatives (next/image)
 
 ---
 
@@ -195,8 +195,9 @@ j42marseille/
 - Logo dédié non présent à ce stade.
 - Les liens sociaux et la mention légale sont des placeholders.
 - Les tests responsive restent à valider manuellement.
+- Image équipe students.png intégrée dans la section À propos (26/04/2026).
 
 ---
 
-**Dernière MAJ** : 06/04/2026  
+**Dernière MAJ** : 27/04/2026  
 **Statut** : En cours

@@ -91,7 +91,7 @@ export default function Contact() {
               <div>
                 <h3 className="text-text-primary font-semibold mb-2">📍 Adresse</h3>
                 <p className="text-text-secondary">
-                  Junior Entreprise - 42 Marseille<br/>
+                  J42 Marseille<br/>
                   19 Rue Henri Barbusse<br/>
                   13001 Marseille, France
                 </p>

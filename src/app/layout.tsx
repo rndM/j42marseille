@@ -20,7 +20,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "JE 42 Marseille",
-  description: "La Junior Entreprise de l'école 42 Marseille accompagne vos projets digitaux.",
+  description: "J42 Marseille accompagne vos projets digitaux.",
 
   // OpenGraph (Facebook, LinkedIn, etc.)
   openGraph: {

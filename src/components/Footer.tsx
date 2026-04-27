@@ -9,7 +9,7 @@ export default function Footer() {
               J42 Marseille
             </h3>
             <p className="text-text-secondary">
-              La Junior Entreprise de 42 Marseille
+              J42 Marseille
             </p>
           </div>
 

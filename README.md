@@ -1,17 +1,17 @@
 
-# Junior Entreprise 42 Marseille
+# J42 Marseille
 
-Site vitrine officiel de la Junior Entreprise de l’école 42 Marseille, développé bénévolement pour accompagner l’association dans sa visibilité en ligne et faciliter la prise de contact avec ses prospects.
+Site vitrine officiel de l'assocation entrepreneuriale de l’école 42 Marseille, développé bénévolement pour accompagner l’association dans sa visibilité en ligne et faciliter la prise de contact avec ses prospects.
 
 L’application est déployée ici : [https://j42marseille.vercel.app/](https://j42marseille.vercel.app/)
 
 ## Présentation
 
-Ce projet a pour objectif de proposer une présence web claire, sobre et professionnelle à la Junior Entreprise 42 Marseille. Il met en avant l’association, ses services et ses coordonnées, avec une navigation simple et une expérience centrée sur la prise de contact.
+Ce projet a pour objectif de proposer une présence web claire, sobre et professionnelle à la J42 Marseille. Il met en avant l’association, ses services et ses coordonnées, avec une navigation simple et une expérience centrée sur la prise de contact.
 
 ## Fonctionnalités
 
-- Page d’accueil avec présentation de la Junior Entreprise.
+- Page d’accueil avec présentation de l'association.
 - Mise en avant des services proposés : développement web, conseil digital et formation.
 - Section À propos pour expliquer la mission de l’association.
 - Formulaire de contact générant un email pré-rempli via le client de messagerie.
@@ -72,5 +72,5 @@ Le site est pensé pour un déploiement simple sur Vercel. La configuration Next
 
 ## À propos du projet
 
-Ce site a été réalisé bénévolement afin de soutenir la Junior Entreprise de 42 Marseille et de lui offrir un support de communication moderne, lisible et facile à maintenir.
+Ce site a été réalisé bénévolement afin de soutenir la J42 Marseille et de lui offrir un support de communication moderne, lisible et facile à maintenir.
 
