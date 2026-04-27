@@ -8,7 +8,7 @@ export default function MentionsLegales() {
           {/* Éditeur du site */}
           <section>
             <h2 className="text-2xl font-bold mb-4 text-text-primary">
-              ÉDITEUR du site internet j42marseille.fr
+              ÉDITEUR du site internet j42marseille
             </h2>
             <p className="text-text-secondary mb-2">
               J42 Marseille – Association étudiante de l'école 42 Marseille
@@ -27,7 +27,7 @@ export default function MentionsLegales() {
           {/* Directeur de la publication */}
           <section>
             <h2 className="text-2xl font-bold mb-4 text-text-primary">
-              DIRECTEUR DE LA PUBLICATION du site internet j42marseille.fr
+              DIRECTEUR DE LA PUBLICATION du site internet j42marseille
             </h2>
             <p className="text-text-secondary">
               Le Président de l'association J42 Marseille
@@ -37,7 +37,7 @@ export default function MentionsLegales() {
           {/* Hébergement */}
           <section>
             <h2 className="text-2xl font-bold mb-4 text-text-primary">
-              HÉBERGEUR du site internet j42marseille.fr
+              HÉBERGEUR du site internet j42marseille
             </h2>
             <p className="text-text-secondary mb-2">
               Vercel Inc.
@@ -59,7 +59,7 @@ export default function MentionsLegales() {
               PROPRIÉTÉ INTELLECTUELLE
             </h2>
             <p className="text-text-secondary">
-              Aucune exploitation commerciale, même partielle, des données présentes sur le site internet j42marseille.fr ne pourra être effectuée sans l'accord préalable et écrit de l'association J42 Marseille.
+              Aucune exploitation commerciale, même partielle, des données présentes sur le site internet ne pourra être effectuée sans l'accord préalable et écrit de l'association J42 Marseille.
             </p>
           </section>
         </div>

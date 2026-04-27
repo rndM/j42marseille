@@ -30,14 +30,15 @@ Ce projet a pour objectif de proposer une présence web claire, sobre et profess
 
 ## Structure du projet
 
-- [src/app/page.tsx](src/app/page.tsx) : composition de la page d’accueil.
+- [src/app/page.tsx](src/app/page.tsx) : composition de la page d'accueil.
 - [src/app/layout.tsx](src/app/layout.tsx) : layout global et métadonnées.
 - [src/app/globals.css](src/app/globals.css) : styles globaux, variables de thème et classes utilitaires.
+- [src/app/mentions-legales/page.tsx](src/app/mentions-legales/page.tsx) : page des mentions légales.
 - [src/components/Navbar.tsx](src/components/Navbar.tsx) : navigation principale.
 - [src/components/ThemeToggle.tsx](src/components/ThemeToggle.tsx) : bascule de thème (system/light/dark).
-- [src/components/sections/Hero.tsx](src/components/sections/Hero.tsx) : bloc d’introduction.
+- [src/components/sections/Hero.tsx](src/components/sections/Hero.tsx) : bloc d'introduction.
 - [src/components/sections/Services.tsx](src/components/sections/Services.tsx) : présentation des services.
-- [src/components/sections/About.tsx](src/components/sections/About.tsx) : présentation de l’association.
+- [src/components/sections/About.tsx](src/components/sections/About.tsx) : présentation de l'association.
 - [src/components/sections/Contact.tsx](src/components/sections/Contact.tsx) : formulaire de contact.
 - [src/components/Footer.tsx](src/components/Footer.tsx) : pied de page et liens utiles.
 
@@ -67,8 +68,9 @@ Le site est pensé pour un déploiement simple sur Vercel. La configuration Next
 
 ## État actuel
 
-- Les liens vers les réseaux sociaux et les mentions légales sont encore des placeholders (`#`).
-- Le bloc visuel de la section À propos est un placeholder en attente d’une image ou illustration finale.
+- Les liens vers les réseaux sociaux sont encore des placeholders (`#`).
+- La page Mentions légales est disponible et fonctionnelle.
+- L'image de l'équipe (students.png) est intégrée dans la section À propos.
 
 ## À propos du projet
 
