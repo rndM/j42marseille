@@ -40,6 +40,7 @@ const config: Config = {
           primary: 'var(--surface-primary)',
           secondary: 'var(--surface-secondary)',
           tertiary: 'var(--surface-tertiary)',
+          mobileMenu: 'var(--surface-mobile-menu)',
         },
         text: {
           primary: 'var(--text-primary)',

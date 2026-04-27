@@ -26,6 +26,7 @@
   --surface-primary: var(--color-blanc);
   --surface-secondary: var(--color-bubbles);
   --surface-tertiary: var(--color-bright-gray);
+  --surface-mobile-menu: #F5F5F5;
   
   --text-primary: var(--color-noir);
   --text-secondary: var(--color-dark-slate-gray);
@@ -44,6 +45,7 @@
     --surface-primary: var(--color-noir);
     --surface-secondary: #0a0f10;
     --surface-tertiary: var(--color-dark-slate-gray);
+    --surface-mobile-menu: #2A2A2A;
     
     --text-primary: var(--color-blanc);
     --text-secondary: var(--color-light-cobalt-blue);
@@ -62,6 +64,7 @@
   --surface-primary: var(--color-noir);
   --surface-secondary: #0a0f10;
   --surface-tertiary: var(--color-dark-slate-gray);
+  --surface-mobile-menu: #2A2A2A;
   --text-primary: var(--color-blanc);
   --text-secondary: var(--color-light-cobalt-blue);
   --text-muted: var(--color-cadet-gray);
@@ -75,6 +78,7 @@
   --surface-primary: var(--color-blanc);
   --surface-secondary: var(--color-bubbles);
   --surface-tertiary: var(--color-bright-gray);
+  --surface-mobile-menu: #F5F5F5;
   --text-primary: var(--color-noir);
   --text-secondary: var(--color-dark-slate-gray);
   --text-muted: var(--color-cadet-gray);

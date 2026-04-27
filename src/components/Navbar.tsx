@@ -47,7 +47,7 @@ export default function Navbar() {
 
       {/* Menu Mobile */}
       {isOpen && (
-        <div className="md:hidden section-bg-secondary border-t border-border-default px-4 py-3 flex flex-col gap-3">
+        <div className="md:hidden bg-surface-mobile-menu border-t border-border-default px-4 py-3 flex flex-col gap-3">
           <a
             href="#accueil"
             onClick={() => setIsOpen(false)}
