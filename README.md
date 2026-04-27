@@ -69,8 +69,6 @@ Le site est pensé pour un déploiement simple sur Vercel. La configuration Next
 ## État actuel
 
 - Les réseaux sociaux ne sont pas encore disponibles.
-- La page Mentions légales est disponible et fonctionnelle.
-- L'image de l'équipe (students.png) est intégrée dans la section À propos.
 
 ## À propos du projet
 
