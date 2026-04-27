@@ -86,7 +86,7 @@ Landing page responsive - Next.js + Tailwind - Déploiement Vercel
 
 ### Footer
 
-- [x] Mentions légales (placeholder)
+- [x] Mentions légales (page créée)
 - [x] Copyright
 - [x] Liens sociaux (placeholder)
 
@@ -193,9 +193,10 @@ j42marseille/
 - Code propre > Features
 - Itérations rapides
 - Logo dédié non présent à ce stade.
-- Les liens sociaux et la mention légale sont des placeholders.
+- Les liens sociaux sont des placeholders.
 - Les tests responsive restent à valider manuellement.
 - Image équipe students.png intégrée dans la section À propos (26/04/2026).
+- Page Mentions légales créée (27/04/2026).
 
 ---
 

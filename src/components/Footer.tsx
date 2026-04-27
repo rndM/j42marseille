@@ -72,7 +72,7 @@ export default function Footer() {
           <p className="text-text-muted">
             © 2026 J42 Marseille
           </p>
-          <a href="#" className="footer-link text-sm text-text-muted">
+          <a href="/mentions-legales" className="footer-link text-sm text-text-muted">
             Mentions légales
           </a>
         </div>
